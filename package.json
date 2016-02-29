@@ -1,0 +1,32 @@
+{
+  "name": "nypl-registry-utils-normalize",
+  "version": "1.0.0",
+  "description": "Simple functions for title/identifier/string normalize and comparison",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-registry/utils-normalize.git"
+  },
+  "keywords": [
+    "nypm-registry"
+  ],
+  "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypl-registry/utils-normalize/issues"
+  },
+  "homepage": "https://github.com/nypl-registry/utils-normalize",
+  "dependencies": {
+    "diacritics": "^1.2.3",
+    "pluralize": "^1.2.1",
+    "string": "^3.3.1",
+    "word-overlap": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
