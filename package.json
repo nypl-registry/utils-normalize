@@ -6,7 +6,9 @@
   "scripts": {
     "test": "standard && mocha test"
   },
-  "standard": { "ignore" : "test/*"},
+  "standard": {
+    "ignore": "test/*"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nypl-registry/utils-normalize.git"
@@ -24,6 +26,7 @@
     "diacritics": "^1.2.3",
     "pluralize": "^1.2.1",
     "string": "^3.3.1",
+    "string_score": "^0.1.22",
     "word-overlap": "^2.4.1"
   },
   "devDependencies": {

@@ -2,6 +2,7 @@ var S = require('string')
 var overlap = require('word-overlap')
 var removeDiacritics = require('diacritics').remove
 var pluralize = require('pluralize')
+require('string_score')
 
 var exports = module.exports = {}
 
